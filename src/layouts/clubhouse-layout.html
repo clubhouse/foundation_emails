@@ -1,0 +1,70 @@
+{{!-- This layout is for use by clubhouse drip emails --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{root}}css/clubhouse.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{{subject}}</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+    </style>
+    <!-- <style> -->
+  </head>
+  <body>
+    <span class="preheader">{{description}}</span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+
+            {{> header}}
+
+            {{> body}}
+
+            <container>
+              <spacer size="24"></spacer>
+              <row>
+                <columns small="12" large="6" class="feature-pane">
+                  <row>
+                    <columns small="12" large="6" class="card">
+                      <spacer size="32"></spacer>
+                      <center>
+                        <img class="icon-70" src="https://prismic-io.s3.amazonaws.com/clubhouse/4c794379-2e25-466f-a262-e080ca05c152_drip_icon_referral.png?auto=compress,format" width="64" height="64" />
+                      </center>
+                      <spacer size="12"></spacer>
+                      <h3 class="text-center">Refer a friend</h3>
+                      <p class="text-center text-light">Know someone who would enjoy using Clubhouse? Help us spread the word! <a href="https://clubhouse.io/referral/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=referral&utm_content={{utmContent}}">Learn more</a></p>
+                    </columns>
+                  </row>
+                </columns>
+                <columns small="12" large="6" class="feature-pane">
+                  <row>
+                    <columns small="12" large="6" class="card">
+                      <spacer size="32"></spacer>
+                      <center>
+                        <img class="icon-70" src="https://prismic-io.s3.amazonaws.com/clubhouse/f68f5484-512f-43f4-9928-02c863fefd40_drip_icon_slack.png?auto=compress,format" width="64" height="64" />
+                      </center>
+                      <spacer size="12"></spacer>
+                      <h3 class="text-center">Join our Slack</h3>
+                      <p class="text-center text-light">Connect with other Clubhouse users and the Clubhouse team on our private Slack <a href="https://clubhouse.io/community/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=slack&utm_content={{utmContent}}">Learn more</a></p>
+                    </columns>
+                  </row>
+                </columns>
+              </row>
+            </container>
+
+            {{> footer }}
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+

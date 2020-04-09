@@ -1,0 +1,62 @@
+<container class="card">
+
+  <spacer size="40"></spacer>
+
+  <row>
+    <columns small="12" large="10" class="large-offset-1 no-padding-bottom">
+      <h1 class="text-center">Welcome! Get started in 3 easy steps.</h1>
+    </columns>
+    <columns small="12" large="1" class="show-for-large no-padding-bottom"></columns>
+  </row>
+
+  <row>
+    <columns small="12" large="8" class="large-offset-2">
+      <p class="text-center text-light">Thanks for signing up! Let's ship some code.</p>
+      <p class="text-center text-light">Follow these three steps, and you’ll be creating and collaborating with your team in no time.</p>
+    </columns>
+    <columns small="12" large="2" class="show-for-large"></columns>
+  </row>
+
+  <row>
+    <columns>
+      <center>
+        <img src="https://prismic-io.s3.amazonaws.com/clubhouse/ac86129f-f869-436f-a4b8-fc2e6dbdc606_drip_1_hero.png?auto=compress,format" width="396" height="176" alt="Welcome hero image">
+      </center>
+    </columns>
+  </row>
+
+  <spacer class="show-for-large" size="36"></spacer>
+
+  {{> listItem
+    title="Learn the Clubhouse basics"
+    description="Stories. Projects. Epics. See how these features make it easy to manage and organize your work."
+    imgSrc="https://prismic-io.s3.amazonaws.com/clubhouse/11524db8-7ccc-48d3-a09b-3279d6ade275_drip_1_icon_1.png?auto=compress,format"
+    imgAlt="Checklist icon"
+    url=listItemOne
+  }}
+
+  {{> listItem
+    title="Create a few Stories"
+    description="Stories are the key building blocks of Clubhouse. Making some is the best way to get started."
+    imgSrc="https://prismic-io.s3.amazonaws.com/clubhouse/3b463632-595d-4c9f-9eec-53e48153c86f_drip_1_icon_2.png?auto=compress,format"
+    imgAlt="Story icon"
+    url=listItemTwo
+  }}
+
+  {{> listItem
+    title="Invite your team"
+    description="Don’t hoard all the project management. Collaborate with your co-workers to get stuff done."
+    imgSrc="https://prismic-io.s3.amazonaws.com/clubhouse/7ed2edf7-db32-44eb-b013-af28391d4786_drip_1_icon_3.png?auto=compress,format"
+    imgAlt="Team icon"
+    url=listItemThree
+  }}
+
+  <row>
+    <columns>
+      <center>
+        <button href="https://app.clubhouse.io/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=getstarted&utm_content={{utmContent}}" class="large small-expanded">Get Started</button>
+      </center>
+    </columns>
+  </row>
+
+</container>

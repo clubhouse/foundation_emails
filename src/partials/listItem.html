@@ -1,0 +1,20 @@
+<row>
+  <columns small="4" large="2" class="small-offset-4 xtra-padding-horizontal">
+    <img class="icon-70 small-float-center" src="{{imgSrc}}" width="70" height="70" alt="{{imgAlt}}">
+  </columns>
+  <columns small="12" large="10" class="xtra-padding-horizontal">
+    <h4 class="small-text-center no-margin-bottom">{{{title}}}</h4>
+    <p class="small-text-center text-light no-margin-bottom">{{{description}}}</p>
+    {{#if url}}
+      <p class="small-text-center no-margin-bottom"><a href="{{url}}">Learn more</a></p>
+    {{/if}}
+  </columns>
+</row>
+
+{{#unless noBorder}}
+  <row>
+    <columns class="xtra-padding-horizontal">
+      <hr class="hr"/>
+    </columns>
+  </row>
+{{/unless}}

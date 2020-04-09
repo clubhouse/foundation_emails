@@ -2,3 +2,10 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+table.card,
+th.card,
+td.card {
+  background: $white;
+  border-radius: $container-radius;
+}

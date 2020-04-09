@@ -1,0 +1,15 @@
+.footer {
+  .text-footer,
+  .menu-item {
+    color: $dark-gray;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .menu-item.footer-menu-item {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+  }
+}
+
