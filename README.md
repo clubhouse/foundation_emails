@@ -24,7 +24,7 @@ subject: Welcome! Get started in 3 easy steps.
 utmContent: drip1o
 ---
 
-{{> drip-body-welcome
+{{> drip-body-welcome-v1
   listItemOne="https://clubhouse.io/webinars/training-building-blocks/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=learn&utm_content=drip1o"
   listItemTwo="https://app.clubhouse.io/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=create&utm_content=drip1o"
   listItemThree="https://app.clubhouse.io/?utm_source=email&utm_medium=ch&utm_campaign=onboarding&utm_term=invite&utm_content=drip1o"
